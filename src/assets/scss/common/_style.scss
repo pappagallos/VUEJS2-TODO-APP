@@ -1,0 +1,76 @@
+@import "@/assets/scss/common/_variables.scss";
+
+// TODO 어플리케이션 공통 스타일 정의 파일 _style.scss
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+    letter-spacing: -.05rem;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+}
+
+div {
+    box-sizing: border-box;
+}
+
+a {
+    color: #5093e9;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p, span, div {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    box-sizing: border-box;
+    outline: none;
+}
+
+input::placeholder {
+    color: #616161;
+    letter-spacing: -.05rem;
+}
+
+input::-moz-placeholder {
+    color: #616161;
+    letter-spacing: -.05rem;
+}
+
+input:-ms-input-placeholder {
+    color: #616161;
+    letter-spacing: -.05rem;
+}
+
+input::-webkit-input-placeholder {
+    color: #616161;
+    letter-spacing: -.05rem;
+}
+
+div.todo-wrapper {
+    width: inherit;
+    height: 100vh;
+}
